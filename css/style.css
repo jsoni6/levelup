@@ -1,0 +1,265 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+
+.intro-section {
+    height: 100%;
+    padding-top: 100px;
+    background-image: url('../images/text.jpg');
+}
+
+.about-section {
+    height: 100%;
+   
+    text-align: center;
+    background-image: url('../images/text.jpg');
+}
+
+.services-section {
+    height: 100%;
+    text-align: center;
+    background-image: url('../images/text.jpg');
+}
+
+.contact-section {
+    height: 100%;
+    text-align: center;
+    background-image: url('../images/text.jpg');
+}
+
+.col-md-4{
+    margin-top: 15px;
+    border: 3px outset black;
+    border-radius: 15px;
+     background-color: white;
+     -webkit-box-shadow:inset 3px 3px 30px 20px #73B9FF;
+box-shadow:inset 3px 3px 30px 20px #73B9FF;
+}
+
+.col-md-4 h1{
+
+    text-align: center;
+    font-size: 35px;
+    font: red serif;
+    
+}
+
+.col-md-4 p{
+
+    font-size: 20px;
+}
+/*Customer service pop up */
+.customerservice {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+
+
+.customerservice:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.customerservice > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+
+
+/*thankyou note pop up */
+.thank{
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+
+
+.thank:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.thank > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+
+/* home network pop up */
+.homenetwork {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+
+
+.homenetwork:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.homenetwork > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+
+/* pronouns and nouns pop up  */
+.noun{
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+
+
+.noun:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.noun > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+
+
+.test{
+   margin-top: 10px;
+    border: 3px outset black;
+    border-radius: 20px;
+     background-color: white;
+     -webkit-box-shadow:inset 3px 3px 30px 20px #73B9FF;
+box-shadow:inset 3px 3px 30px 20px #73B9FF;
+}
+
+
+.lp-block       { width:400px; float:left; }
+.lp-block input, .lp-block textarea { width:90%; }
+#live-preview-display   { background:#eee; padding:10px; margin-left:50px; margin-top:20px; }
+#lp-name { font-weight:bold; }
+#lp-avatar { float:right; margin:0 0 20px 20px; }
+#lp-comment { padding-top:10px; font-style:italic; line-height:19px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
